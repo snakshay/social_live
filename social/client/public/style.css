@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
+}
+body{
+    background-color: #242526;
+    color: white;
+}
+.hr{
+    margin: 20px 5px;
+    border: 1px solid grey;
+    width: 100%;
+}
+.cp{
+    cursor: pointer;
+}
+.darkBackground{
+    background-color: #242526;
+    color: white;
+}
+.darkBackground2{
+    background-color: #18191A;
+    color: white;
+}
+.br-20{
+    border-radius: 20px;
+}
+.h{
+    font-size: 24px;
+}
+.p{
+    font-size: 20px;
+}
+.small-p{
+    font-size: 16px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vcenter{
+    display: flex;
+    align-items: center;
+    
+}
+.p-10{
+    padding: 10px;
+}
+.m-10{
+    margin: 10px;
+}
+.my-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.mx-10{
+    margin-left: 10px;
+    margin-right:10px
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+/* .iframe{
+   
+    width: 100%;
+    object-fit: cover;
+} */
+.profileContainer{
+    display: flex;
+    
+}
+.profileIcon{
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid grey;
+    height: 200px;
+    width: 200px;
+    margin-top: -50px;
+}
+.noCover{
+    width: 100%;
+    height: 150px;
+}
+.coverPicture{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.video-wrapper {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+  
+.video-wrapper iframe {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+  }
+.userForm{
+    width:80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+.d-flex{
+    display: flex;
+}
+.editIcon{
+    float: right;
+    position: absolute;
+    right: 0;
+    border-radius: 20px;
+    top: 26px;
+}
+.editProfile{
+    float: right;
+    position: absolute;
+    right: -130px;
+    top: -45px;
+    height: fit-content;
+}
+.sidebar{
+   
+   height: 70vh
+}
+.d-block{
+    display: block;
+}
+.side-footer{
+    margin-top: 24vh
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.black{
+    color:black !important;
+}
+@media screen and (max-width: 600px){
+    .m-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1%;
+    }
+    .profileContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+    }
+    .profileIcon{
+        object-fit: cover;
+        border-radius: 50%;
+        border: 1px solid grey;
+        height: 200px;
+        width: 200px;
+        margin-top: -50px;
+    }
+    .editProfile{
+        float: right;
+        position: absolute;
+        top: -22px;
+        right: 0;
+    }
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

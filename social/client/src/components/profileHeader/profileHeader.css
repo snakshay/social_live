@@ -1,0 +1,26 @@
+
+
+.userDetailsContainer{
+  flex:12
+}
+.followFollowing{
+    display: flex;
+    margin-top: 1%;
+}
+.following{
+    margin:1% 5%;
+}
+.followers{
+    margin-right: 5%;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 600px){
+    
+}

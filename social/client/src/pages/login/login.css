@@ -1,0 +1,11 @@
+.loginContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+.logo{
+    flex: 3;
+}
+.input{
+    flex: 5;
+}
